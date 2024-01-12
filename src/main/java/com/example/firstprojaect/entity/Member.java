@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.stereotype.Controller;
@@ -16,6 +17,7 @@ import org.springframework.stereotype.Controller;
 public class Member {
     @Id
     @GeneratedValue
+    @Getter
     private Long id;
     @Column
     private String email;
