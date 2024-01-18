@@ -26,7 +26,7 @@ public class ArticleApiController {
 
     @GetMapping("/api/articles/{id}")
     public Article show(@PathVariable Long id){
-        log.info(articleRepository.findById(id).orElse(null).toString());
+//        log.info(articleRepository.findById(id).orElse(null).toString());
         return articleRepository.findById(id).orElse(null);
     }
 
