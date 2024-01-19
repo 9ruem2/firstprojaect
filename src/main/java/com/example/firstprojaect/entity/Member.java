@@ -19,8 +19,12 @@ public class Member {
     @GeneratedValue
     @Getter
     private Long id;
+
+    @Getter
     @Column
     private String email;
+
+    @Getter
     @Column
     private String password;
 

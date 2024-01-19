@@ -17,9 +17,11 @@ public class Coffee {
     @Getter
     Long id;
 
+    @Getter
     @Column
     String name;
 
+    @Getter
     @Column
     String price;
 
