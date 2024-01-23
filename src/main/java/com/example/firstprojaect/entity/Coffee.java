@@ -10,18 +10,16 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
 public class Coffee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter
     Long id;
 
-    @Getter
     @Column
     String name;
 
-    @Getter
     @Column
     String price;
 

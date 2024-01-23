@@ -2,7 +2,6 @@ package com.example.firstprojaect.api;
 
 import com.example.firstprojaect.dto.ArticleForm;
 import com.example.firstprojaect.entity.Article;
-import com.example.firstprojaect.repository.ArticleRepository;
 import com.example.firstprojaect.service.ArticleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
